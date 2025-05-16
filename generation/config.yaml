@@ -1,0 +1,11 @@
+teacher_model: gpt-4o
+student_model: gpt-4o
+orchestrator_model: gpt-4o
+tasks: [T1, T2, T3, T4, T5, T6, T7]
+samples_per_task: 100
+example_prob: 0.5
+factor_prob: 0.5
+max_init_loops: 4
+max_diff_loops: 4
+max_student_loops: 5
+output_prefix: agentic
