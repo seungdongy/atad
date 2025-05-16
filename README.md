@@ -28,3 +28,37 @@ The benchmark uses **text anomaly detection** tasks requiring logical reasoning 
 ├── requirements.txt       # Required Python packages
 ├── LICENSE                # MIT License
 └── README.md              # This file
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+
+### 2. Run example benchmark generation
+```bash
+python generation/orchestrator_agentic_generator.py --config config.yaml
+
+### 3. Evaluate model output
+```bash
+python evaluation/eval_agentic_models.py --config eval_config.yaml --dataset 'path/your/data'
+
+---
+## 📦 Dataset
+
+The full dataset and Croissant metadata will be made available via the [Hugging Face Hub](https://huggingface.co/datasets/ADsquad/ATAD).
+
+We follow the NeurIPS 2025 dataset hosting guidelines, including:
+- Validated [Croissant metadata](https://github.com/mlcommons/croissant)
+- Publicly accessible storage
+- Consistent versioning and permanence
+
+A direct link will be updated here upon acceptance.
+
+
+https://huggingface.co/datasets/ADsquad/ATAD
+
+
