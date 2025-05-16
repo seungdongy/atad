@@ -1,0 +1,7 @@
+openai
+anthropic
+google-generativeai
+groq
+pyyaml
+tqdm
+tenacity
