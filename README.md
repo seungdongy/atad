@@ -49,7 +49,7 @@ python evaluation/eval_agentic_models.py --config eval_config.yaml --dataset 'pa
 ---
 ## 📦 Dataset
 
-The full dataset and Croissant metadata will be made available via the [Hugging Face Hub](https://huggingface.co/datasets/ADsquad/ATAD).
+The full dataset and Croissant metadata will be made available via the [Hugging Face Hub](https://huggingface.co/datasets/LGAI-DILab/ATAD).
 
 We follow the NeurIPS 2025 dataset hosting guidelines, including:
 - Validated [Croissant metadata](https://github.com/mlcommons/croissant)
@@ -59,6 +59,6 @@ We follow the NeurIPS 2025 dataset hosting guidelines, including:
 A direct link will be updated here upon acceptance.
 
 
-https://huggingface.co/datasets/ADsquad/ATAD
+https://huggingface.co/datasets/LGAI-DILab/ATAD
 
 
