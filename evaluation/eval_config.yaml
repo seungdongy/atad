@@ -1,0 +1,35 @@
+dataset: benchmark_data.jsonl
+
+openai_api_key: Your_API_KEY
+claude_api_key: Your_API_KEY
+gemini_api_key: Your_API_KEY
+groq_api_key: Your_API_KEY
+
+# Models to evaluate
+models:
+- name: gpt-4o-mini
+  provider: openai
+- name: gpt-4o
+  provider: openai
+- name: gpt-3.5-turbo-0125
+  provider: openai
+- name: o4-mini
+  provider: openai
+- name: gemini-1.5-flash
+  provider: gemini
+- name: gemini-2.0-flash-lite
+  provider: gemini
+- name: gemini-2.0-flash
+  provider: gemini
+- name: claude-3-haiku-20240307
+  provider: claude
+- name: claude-3-5-haiku-20241022
+  provider: claude
+- name: claude-3-5-sonnet-20241022
+  provider: claude
+- name: llama-3.3-70b-versatile
+  provider: groq
+
+
+# Output configurations
+csv_output_prefix: evaluation_results_from_llm
