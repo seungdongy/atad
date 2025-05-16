@@ -28,7 +28,7 @@ The benchmark uses **text anomaly detection** tasks requiring logical reasoning 
 ├── requirements.txt       # Required Python packages
 ├── LICENSE                # MIT License
 └── README.md              # This file
-
+```
 
 ---
 
@@ -37,15 +37,15 @@ The benchmark uses **text anomaly detection** tasks requiring logical reasoning 
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ### 2. Run example benchmark generation
 ```bash
 python generation/orchestrator_agentic_generator.py --config config.yaml
-
+```
 ### 3. Evaluate model output
 ```bash
 python evaluation/eval_agentic_models.py --config eval_config.yaml --dataset 'path/your/data'
-
+```
 ---
 ## 📦 Dataset
 
